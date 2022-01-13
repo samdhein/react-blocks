@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+
+.app{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding-top: 20px
+}
+.header {
+    height: 150px;
+    background-color: green;
+    margin: 0px 20px 20px 20px;
+}
+.navigation {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    vertical-align: top;
+    margin: 0px 10px
+
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    vertical-align: top;
+    margin: 0px 0px 20px 0px;
+    z-index: 1;
+    /* display: flex; */
+}
+.subcontent {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 10px 0px 0px 10px;
+    z-index: 2;
+}
+.advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 20px 10px 20px; 
+}
